@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+CL
+    1     0     1     0     0
+SMALL
+User Assigned Charge
+ 
+ 
+@<TRIPOS>ATOM
+     34 CL          1.9860    0.3360   -3.2550 Cl        4 CL      -1.000000
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 CL          1 TEMP              0 ****  ****    0 ROOT

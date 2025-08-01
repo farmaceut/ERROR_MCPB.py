@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+PT
+    1     0     1     0     0
+SMALL
+User Assigned Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 PT          0.3630    0.1260   -1.6030 PT        1 PT       2.000000
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 PT          1 TEMP              0 ****  ****    0 ROOT
