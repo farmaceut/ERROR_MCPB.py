@@ -1,0 +1,18 @@
+%Chk=CIX_small_opt.chk
+%Mem=3000MB
+%NProcShared=48
+# B3LYP/genecp Freq Geom=AllCheckpoint Guess=Read
+Integral=(Grid=UltraFine) IOp(7/33=1) scf=xqc
+
+Pt 0
+def2svp
+****
+H C N O Cl 0
+def2svp
+****
+
+Pt 0
+def2svp
+
+
+

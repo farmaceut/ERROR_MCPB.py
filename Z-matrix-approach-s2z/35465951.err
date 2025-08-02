@@ -1,0 +1,31 @@
+gaussian/g16.C01 load complete.
+Error: segmentation violation
+   rax 0000000000000000, rbx 0000000005b41d00, rcx 000014ac00935e2b
+   rdx 0000000000000000, rsp 00007fff57a8d908, rbp 00007fff57a8d940
+   rsi 000000000000000b, rdi 00000000000019f3, r8  000014abce7ab000
+   r9  0000000000000077, r10 000014ac00909ec0, r11 0000000000000202
+   r12 0000000000000000, r13 00007fff57a8e250, r14 00007fff57a8eb10
+   r15 00007fff57a8e258
+addr2line: 'formchk': No such file
+  /lib64/libc.so.6(+0x3ebf0) [0x14ac00935bf0]
+addr2line: 'formchk': No such file
+  /lib64/libc.so.6(kill+0xb) [0x14ac00935e2b]
+addr2line: 'formchk': No such file
+  formchk() [0x461e35]
+addr2line: 'formchk': No such file
+  formchk() [0x433499]
+addr2line: 'formchk': No such file
+  formchk() [0x480462]
+addr2line: 'formchk': No such file
+  formchk() [0x453fbe]
+addr2line: 'formchk': No such file
+  formchk() [0x410977]
+addr2line: 'formchk': No such file
+  formchk() [0x4100a4]
+addr2line: 'formchk': No such file
+  /lib64/libc.so.6(+0x295d0) [0x14ac009205d0]
+addr2line: 'formchk': No such file
+  /lib64/libc.so.6(__libc_start_main+0x80) [0x14ac00920680]
+addr2line: 'formchk': No such file
+  formchk() [0x40a7e9]
+/var/lib/slurm/slurmd/job35465951/slurm_script: line 31:  6643 Aborted                 (core dumped) formchk "CIX_small_fc.chk"

@@ -1,0 +1,16 @@
+@<TRIPOS>MOLECULE
+WAT
+    3     2     1     0     0
+SMALL
+bcc
+
+
+@<TRIPOS>ATOM
+      1 H           -2.0160     0.5190    -2.6410 HO         5 WAT       0.392000
+      2 O           -1.1160     0.1120    -3.0370 OW         5 WAT      -0.785000
+      3 H1          -1.3360    -0.8040    -3.2830 HO         5 WAT       0.392000
+@<TRIPOS>BOND
+     1     1     2 1   
+     2     2     3 1   
+@<TRIPOS>SUBSTRUCTURE
+     1 WAT         1 TEMP              0 ****  ****    0 ROOT

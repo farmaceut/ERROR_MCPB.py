@@ -1,0 +1,8 @@
+original_pdb CIX.pdb
+group_name CIX
+cut_off 2.8
+ion_ids 1
+ion_mol2files PT.mol2
+naa_mol2files ISX.mol2 WAT.mol2 CL.mol2
+frcmod_files ISX.frcmod
+large_opt 1

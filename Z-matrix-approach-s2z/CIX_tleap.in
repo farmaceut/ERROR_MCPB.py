@@ -1,0 +1,32 @@
+source leaprc.protein.ff19SB
+source leaprc.gaff
+source leaprc.water.opc
+addAtomTypes {
+        { "M1"  "Pt" "sp3" }
+        { "Y1"  "N" "sp3" }
+        { "Y2"  "N" "sp3" }
+        { "Y3"  "Cl" "sp3" }
+        { "Y4"  "O" "sp3" }
+}
+PT1 = loadmol2 PT1.mol2
+IX1 = loadmol2 IX1.mol2
+IX2 = loadmol2 IX2.mol2
+CL1 = loadmol2 CL1.mol2
+WT1 = loadmol2 WT1.mol2
+loadamberparams ISX.frcmod
+loadamberparams frcmod.ionslm_126_opc
+loadamberparams CIX_mcpbpy.frcmod
+mol = loadpdb CIX_mcpbpy.pdb
+bond mol.1.PT mol.2.N1
+bond mol.1.PT mol.3.N1
+bond mol.1.PT mol.4.CL
+bond mol.1.PT mol.5.O
+savepdb mol CIX_dry.pdb
+saveamberparm mol CIX_dry.prmtop CIX_dry.inpcrd
+solvatebox mol OPCBOX 10.0
+addions mol Na+ 0
+addions mol Cl- 0
+savepdb mol CIX_solv.pdb
+saveamberparm mol CIX_solv.prmtop CIX_solv.inpcrd
+quit
+ 

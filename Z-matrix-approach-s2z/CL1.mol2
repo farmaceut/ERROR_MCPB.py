@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+CL1
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 CL          1.9860    0.3360   -3.2550 Y3        1 CL1     -0.261361
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 CL1         1 TEMP              0 ****  ****    0 ROOT
